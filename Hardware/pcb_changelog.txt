@@ -9,6 +9,9 @@ BTTM v1.2
 - Reduced size of carrier PCB to reflect dimensions of TFT display 
 - Improved routing of u.FL for better power RF injection
 - General polish on routing
+- Remove fixed internal CAN termination resistor and moved to be external on J12
+- Spaced CAN and PWR connectors
+
 
 
 BTTM v1.3 (Work in progress)
