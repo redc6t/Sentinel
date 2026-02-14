@@ -1,0 +1,15 @@
+BTTM v1.2
+- Changed vias GND epad on ESP32-S3 to offset the pads
+- Moved caps electrolytic after the PSU
+- Moved SD inward
+- Added two holes to route GNSS antenna cable across the PCB
+- Added 6-pin idc connector for ESP-PROG
+- Removed tactile switches "BOOT" and "RESET"
+- Upgraded GNSS chip form NEO-M8 to NEO-M9 (yey)
+- Reduced size of carrier PCB to reflect dimensions of TFT display 
+- Improved routing of u.FL for better power RF injection
+- General polish on routing
+
+
+BTTM v1.3 (Work in progress)
+- Change bom for L1 to reflect footprint - component selected is too big
