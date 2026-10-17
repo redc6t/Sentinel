@@ -1,10 +1,10 @@
-**BTTM - codename: Flavona**
+**Sentinel - codename: Flavona**
 
-**BTTM: Brake & Tire Temperature Monitor**
-A motorsport telemetry system for real-time thermal monitoring of racing vehicle performance. BTTM integrates distributed infrared and RTD temperature sensors across tire and brake systems, reporting via CAN bus to a central ESP32-S3 hub with WiFi telemetry, local web interface, and on-board data logging.
+**Sentinel - Brake & Tyre Temperature & Pressure Monitor**
+A motorsport telemetry system for real-time thermal monitoring of racing vehicle performance. Sentinel integrates distributed infrared and RTD temperature sensors across tyre and brake systems, reporting via CAN bus to a central ESP32-S3 hub with WiFi telemetry, local web interface, and on-board data logging.
 Features
 
-Multi-node CAN architecture with dedicated brake and tire sensor nodes
+Multi-node CAN architecture with dedicated brake and tyre sensor nodes
 Infrared temperature detection
 Central monitoring unit with ESP32-S3 microcontroller
 Real-time web telemetry dashboard over WiFi

@@ -25,7 +25,7 @@ MAIN()
 SharedData_t
 {
     brake_temp[4]
-    tire_temp[4]
+    tyre_temp[4]
     temp_stats[8]
     gnss_data
     system_flags

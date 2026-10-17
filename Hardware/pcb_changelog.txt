@@ -1,4 +1,6 @@
-BTTM v1.2
+Sentinel - Brake & Tyre Temperature & Pressure Monitor
+
+Sentinel v1.2
 - Changed vias GND epad on ESP32-S3 to offset the pads
 - Moved caps electrolytic after the PSU
 - Moved SD inward
@@ -14,5 +16,5 @@ BTTM v1.2
 
 
 
-BTTM v1.3 (Work in progress)
+Sentinel v1.3 (Work in progress)
 - Change bom for L1 to reflect footprint - component selected is too big

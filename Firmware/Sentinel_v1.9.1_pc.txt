@@ -35,7 +35,7 @@ init_network()
 SharedData_t
 {
     brake_temp[4]
-    tire_temp[4]
+    tyre_temp[4]
     temp_stats[8]        // min, max, avg, std
     gnss                 // lat, lon, speed, sats, fix
     system_flags         // sd_ok, gnss_fix, wifi_ok
@@ -121,7 +121,7 @@ log_to_sd_if_available()
             timestamp,
             gnss_data,
             brake_temps,
-            tire_temps,
+            tyre_temps,
             stats
         )
         write_to_file_buffered()
