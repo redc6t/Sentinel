@@ -1,2 +1,5 @@
 # draw.io autosave backups
 .$*.bkp
+
+# --- Local-only firmware sources (proprietary, never pushed) ---
+Sauce/
