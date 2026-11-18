@@ -209,3 +209,43 @@ That takes the hub out of the list of suspects. 2,190 driver reinstalls in boot 
 - **N3:** node sequence numbers are logged at every stale and recovery, with a verdict, and missed frames per channel go into `canstat`.
 - **N2:** health lines now say "node TEC > 100 / > 200".
 - **Bit rate:** the switch and the rate hunt are disabled, and the bus is pinned to 500k.
+
+## 7. RAWIR calibration (18 Nov 2026)
+
+**TOBJ is what breaks above the ceiling. RAWIR doesn't.**
+
+- Once the brake is hotter than the MLX90614's TOBJ limit (382.19 °C on the sensor's own scale, 440.67 °C after the hub's emissivity 0.70 correction), the sensor's own TOBJ stops being reliable:
+  - it pins at 0x7FFF;
+  - or it wraps to wrong *low* values. Example: FR, 13 Nov 05:09:18, TOBJ jumping 382 → 143 → 233 → 152 → 382 → 116 while RAWIR climbed smoothly from 27,000 to 29,000.
+- The earlier note that "front RAWIR is anti-correlated with TOBJ" was this wrap, seen from the wrong side.
+
+**Fit:** `RAWIR = A·(Tobj⁴ − Ta⁴) + B` (kelvin), on sensor TOBJ between 200 and 381 °C, excluding wrapped samples:
+
+| Brake | A | B | Error at the top (TOBJ 340–381 °C) |
+|---|---|---|---|
+| FL | 8.367e-8 | 2067 | bias −2.4 °C, p95 6.6 °C |
+| FR | 8.005e-8 | 2054 | bias −2.4 °C, p95 7.7 °C |
+| RL | 7.782e-8 | 2175 | bias −1.8 °C, p95 7.2 °C |
+| RR | 8.182e-8 | 2236 | bias −1.7 °C, p95 7.4 °C |
+
+- The four nodes agree within 8 %.
+- There is no die-temperature (TA) dependence across 14–121 °C: bias stays within ±4 °C in every TA band.
+- The old shipped coefficients (A 5.59e-8, B 17.5) were wrong.
+
+**The new ceiling** is RAWIR's 15-bit cap, 32,767. RAWIR pins there and never wraps. At TA ≈ 90 °C that is about 590 °C displayed. FL touched it 11 times in stint 1.
+
+**What stint 1 really was (log_0008, moving rows only):**
+
+| Brake | Above 440 °C | Peak (RAWIR) | Graph more than 40 °C too low |
+|---|---|---|---|
+| FL | 73 % of the time | 589 °C | 28 % of the time |
+| FR | 72 % | 580 °C | 33 % |
+| RL | 73 % | 529 °C | 38 % |
+| RR | 77 % | 556 °C | 20 % |
+
+In log_0014, only RR spent much time above 440 °C (30 %), peaking at 505 °C.
+
+**Caveats:**
+- Above 440 °C the readings are the sensor's own scale extended through RAWIR. They carry the same emissivity and ambient assumptions (0.70 / 35 °C) as every other brake reading.
+- There is no thermocouple ground truth.
+- Sensor die temperature reached 117–121 °C, against the MLX90614's 125 °C rating.
