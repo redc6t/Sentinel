@@ -1,0 +1,4 @@
+Millis,Date,Time,Source,Severity,Event
+27739,,,GNSS,INFO,10Hz (req 100ms act 100ms) 115200 baud autoPVT=1 nacks=0 sigplan=GPS+GAL+BDS+QZSS_L1L5_L5override
+38257,,,TPMS,INFO,CC1101 bring-up OK (partnum 0x00 version 0x14): all tracks proven good - fault is read framing; not wiring
+38257,,,TPMS,INFO,rx engine STREAM prof 5 'OOK16kM' T seed 122us admit 38/48 ring 8192 prio 3; no RSSI gate - CRC + known ID publish only; OE flags seed 0x04

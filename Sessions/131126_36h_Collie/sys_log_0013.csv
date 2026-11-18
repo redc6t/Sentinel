@@ -1,0 +1,307 @@
+Millis,Date,Time,Source,Severity,Event
+27841,,,GNSS,INFO,10Hz (req 100ms act 100ms) 115200 baud autoPVT=1 nacks=0 sigplan=GPS+GAL+BDS+QZSS_L1L5_L5override
+33243,,,NODE_TIRE_FR,INFO,health UNKNOWN -> HEALTHY (node fail count 0)
+33243,,,NODE_TIRE_FL,INFO,health UNKNOWN -> HEALTHY (node fail count 0)
+33243,,,NODE_TIRE_RL,INFO,health UNKNOWN -> HEALTHY (node fail count 0)
+33243,,,NODE_BRAKE_RL,INFO,health UNKNOWN -> HEALTHY (node fail count 0)
+33243,,,NODE_TIRE_RR,INFO,health UNKNOWN -> HEALTHY (node fail count 0)
+33243,,,NODE_BRAKE_RR,INFO,health UNKNOWN -> HEALTHY (node fail count 0)
+33243,,,NODE_BRAKE_FR,INFO,health UNKNOWN -> HEALTHY (node fail count 0)
+33253,,,HUB,INFO,Frame received in LISTEN_ONLY -> promoting to NORMAL
+38354,,,TPMS,INFO,CC1101 bring-up OK (partnum 0x00 version 0x14): all tracks proven good - fault is read framing; not wiring
+38354,,,TPMS,INFO,rx engine STREAM prof 5 'OOK16kM' T seed 122us admit 38/48 ring 8192 prio 3; no RSSI gate - CRC + known ID publish only; OE flags seed 0x04
+38809,,,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -80 dur 14 ms (+0 not logged)
+49054,2026-11-14,07:15:46,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -80 dur 10 ms (+31 not logged)
+59058,2026-11-14,07:15:56,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -80 dur 14 ms (+35 not logged)
+60003,2026-11-14,07:15:56,HUB,INFO,vitals up=60s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=down rssi=0 sat=4 pdop=2.17 gnss=10.00Hz/10 gap=130ms ep=268 nack=0 heap=101896 aggr=45843us disp=113039us sd=17963us 
+63379,2026-11-14,07:16:00,TPMS,INFO,radio marc 0x0D rssi -82 peak -63 floor -84 rfthr -74 | eng STREAM prof OOK16kM T 122us | edges 5179/s cs 1/s | lag 186ms
+63379,2026-11-14,07:16:00,TPMS,INFO,rx 63s: cand 0 frm 0 (MT 0 OE 0 OE* 0 ~0 -0) nofrm 0 idonly 0 unk 0 rl 0 frc 0 ovr 0 fb 4/0 | rf 85: frm 0 cand 0 nrg 85
+63380,2026-11-14,07:16:00,TPMS,INFO,wheels frm/age/rssi FL 0/--/-- FR 0/--/-- RL 0/--/-- RR 0/--/-- | undecoded peak -62
+63380,2026-11-14,07:16:00,TPMS,INFO,repair: segs 0 variants 0 recovered 0 temp-refused 0 held 0 corrob 0 | caplog 6K drops 0
+63380,2026-11-14,07:16:00,TPMS,INFO,A/B off: p5 OOK16kM: cand 0 frm 0 snr -- floor -81 | p4 OOK16kN: cand 0 frm 0 snr -- floor -84 | despiked seg 16 adm 73170 | OE- 0 rfdump 8
+69467,2026-11-14,07:16:06,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -84 dur 6 ms (+28 not logged)
+80841,2026-11-14,07:16:17,HUB,INFO,WiFi got IP: 192.168.0.40 (SSID: MME_AP)
+81154,2026-11-14,07:16:18,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -73 dBm floor -84 dur 4 ms (+19 not logged)
+84615,2026-11-14,07:16:21,HUB,WARN,WiFi disconnected (SSID: MME_AP)
+86808,2026-11-14,07:16:23,TPMS,INFO,survey rows on profile 5 'OOK16kM' unless named (BW203 = profile 0; BW102 = profile 4)
+86808,2026-11-14,07:16:23,TPMS,INFO,survey base               med -86 p90 -84 max -66 dBm (delta med +0 vs base)
+86808,2026-11-14,07:16:23,TPMS,INFO,survey display held       med -86 p90 -82 max -79 dBm (delta med +0 vs base)
+86809,2026-11-14,07:16:23,TPMS,INFO,survey SD+syslog held     med -86 p90 -84 max -79 dBm (delta med +0 vs base)
+86809,2026-11-14,07:16:23,TPMS,INFO,survey WiFi off           med -86 p90 -85 max -82 dBm (delta med +0 vs base)
+86809,2026-11-14,07:16:23,TPMS,INFO,survey all held           med -86 p90 -85 max -82 dBm (delta med +0 vs base)
+86809,2026-11-14,07:16:23,TPMS,INFO,survey all held; BW203    med -77 p90 -76 max -73 dBm (delta med +9 vs base)
+86809,2026-11-14,07:16:23,TPMS,INFO,survey all held; BW102    med -84 p90 -82 max -78 dBm (delta med +2 vs base)
+86809,2026-11-14,07:16:23,TPMS,INFO,survey sweep 432.920-434.920 MHz step 100 kHz med: -81 -81 -81 -81 -85 -86 -87 -91 -86 -91 -87 -87 -84 -82 -87 -87 -85 -91 -79 -82 -86 
+86809,2026-11-14,07:16:23,TPMS,INFO,survey verdict: quietest 'base' +0 dB vs base; sweep spread 12 dB (narrowband spur present)
+87860,2026-11-14,07:16:24,HUB,INFO,WiFi got IP: 192.168.0.40 (SSID: MME_AP)
+91285,2026-11-14,07:16:28,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -72 dBm floor -84 dur 12 ms (+20 not logged)
+101287,2026-11-14,07:16:38,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -70 dBm floor -84 dur 14 ms (+32 not logged)
+111287,2026-11-14,07:16:48,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -70 dBm floor -84 dur 14 ms (+37 not logged)
+120004,2026-11-14,07:16:56,HUB,INFO,vitals up=120s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=up rssi=-34 sat=15 pdop=1.35 gnss=10.00Hz/10 gap=130ms ep=868 nack=0 heap=76180 aggr=45843us disp=113039us sd=17963u
+121303,2026-11-14,07:16:58,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -84 dur 20 ms (+35 not logged)
+126834,2026-11-14,07:17:03,TPMS,INFO,radio marc 0x0D rssi -91 peak -64 floor -84 rfthr -74 | eng STREAM prof OOK16kM T 122us | edges 13237/s cs 106/s | lag 253ms
+126834,2026-11-14,07:17:03,TPMS,INFO,rx 63s: cand 0 frm 0 (MT 0 OE 0 OE* 0 ~0 -0) nofrm 0 idonly 0 unk 0 rl 0 frc 0 ovr 0 fb 19/0 | rf 176: frm 0 cand 0 nrg 176
+126835,2026-11-14,07:17:03,TPMS,INFO,wheels frm/age/rssi FL 0/--/-- FR 0/--/-- RL 0/--/-- RR 0/--/-- | undecoded peak -63
+126835,2026-11-14,07:17:03,TPMS,INFO,repair: segs 0 variants 0 recovered 0 temp-refused 0 held 0 corrob 0 | caplog 19K drops 0
+126835,2026-11-14,07:17:03,TPMS,INFO,A/B off: p5 OOK16kM: cand 0 frm 0 snr -- floor -91 | p4 OOK16kN: cand 0 frm 0 snr -- floor -84 | despiked seg 110 adm 253926 | OE- 0 rfdump 26
+131375,2026-11-14,07:17:08,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -70 dBm floor -84 dur 12 ms (+29 not logged)
+141555,2026-11-14,07:17:18,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -84 dur 12 ms (+27 not logged)
+151567,2026-11-14,07:17:28,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -84 dur 24 ms (+27 not logged)
+161750,2026-11-14,07:17:38,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -84 dur 10 ms (+41 not logged)
+171464,2026-11-14,07:17:48,TPMS,INFO,OE flags 0x25 learned from a full-header frame (2 known)
+171476,2026-11-14,07:17:48,TPMS_RR,INFO,OE CRC OK 202.5 kPa 29.4 psi 25 C raw 0x51 rssi -62 snr 12 p5 first@171s T121 hdr 8/8 f25
+171595,2026-11-14,07:17:48,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -62 payload 00 00 00 00
+173054,2026-11-14,07:17:50,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -84 dur 10 ms (+32 not logged)
+180009,2026-11-14,07:17:56,HUB,INFO,vitals up=180s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=up rssi=-40 sat=18 pdop=1.27 gnss=10.00Hz/10 gap=130ms ep=1468 nack=0 heap=63192 aggr=45843us disp=113039us sd=48485
+183059,2026-11-14,07:18:00,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -76 dur 4 ms (+34 not logged)
+187354,2026-11-14,07:18:04,TPMS,INFO,radio marc 0x0D rssi -84 peak -64 floor -76 rfthr -66 | eng STREAM prof OOK16kM T 122us | edges 13241/s cs 58/s | lag 310ms
+187355,2026-11-14,07:18:04,TPMS,INFO,rx 60s: cand 8 frm 6 (MT 0 OE 5 OE* 0 ~1 -0) nofrm 2 idonly 1 unk 0 rl 0 frc 0 ovr 0 fb 20/0 | rf 197: frm 1 cand 1 nrg 194
+187355,2026-11-14,07:18:04,TPMS,INFO,wheels frm/age/rssi FL 0/--/-- FR 0/--/-- RL 0/--/-- RR 6/14s/-67..-62 | undecoded peak -62
+187355,2026-11-14,07:18:04,TPMS,INFO,repair: segs 3 variants 14 recovered 1 temp-refused 0 held 0 corrob 0 | caplog 38K drops 0
+187355,2026-11-14,07:18:04,TPMS,INFO,A/B off: p5 OOK16kM: cand 8 frm 6 snr 6 floor -80 | p4 OOK16kN: cand 0 frm 0 snr -- floor -76 | despiked seg 710 adm 437049 | OE- 0 rfdump 45
+193571,2026-11-14,07:18:10,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -76 dur 28 ms (+31 not logged)
+201072,2026-11-14,07:18:18,TPMS_RR,INFO,OE CRC OK 202.5 kPa 29.4 psi 25 C raw 0x51 rssi -61 snr 13 p5 dt 28.5s T122 hdr 8/8 f25 prev+5
+201372,2026-11-14,07:18:18,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -65 payload 00 00 00 00
+201857,2026-11-14,07:18:18,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -59 payload 00 00 00 00
+202230,2026-11-14,07:18:19,TPMS_FL,INFO,ID only (no CRC) bit 5 (28-bit MSB-first) rssi -70 payload 4D 4E 00 00
+202359,2026-11-14,07:18:19,TPMS,INFO,OE flags 0x26 learned from a full-header frame (3 known)
+202360,2026-11-14,07:18:19,TPMS_FL,INFO,OE CRC OK 192.5 kPa 27.9 psi 28 C raw 0x4D rssi -71 snr 7 p5 first@202s T121 hdr 8/8 f26
+202712,2026-11-14,07:18:19,TPMS_FR,INFO,OE CRC OK 190.0 kPa 27.6 psi 27 C raw 0x4C rssi -67 snr 1 p5 first@202s T121 hdr 8/8 f25
+205305,2026-11-14,07:18:22,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -76 dur 10 ms (+26 not logged)
+217297,2026-11-14,07:18:34,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -76 dur 4 ms (+7 not logged)
+227552,2026-11-14,07:18:44,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -76 dur 8 ms (+8 not logged)
+237797,2026-11-14,07:18:54,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -76 dur 4 ms (+14 not logged)
+240017,2026-11-14,07:18:56,HUB,INFO,vitals up=240s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=up rssi=-38 sat=19 pdop=1.25 gnss=9.99Hz/10 gap=131ms ep=2068 nack=0 heap=75704 aggr=45843us disp=113039us sd=50347u
+247394,2026-11-14,07:19:04,TPMS,INFO,radio marc 0x0D rssi -81 peak -64 floor -73 rfthr -63 | eng STREAM prof OOK16kM T 122us | edges 13963/s cs 0/s | lag 268ms
+247395,2026-11-14,07:19:04,TPMS,INFO,rx 60s: cand 21 frm 15 (MT 0 OE 15 OE* 0 ~0 -0) nofrm 6 idonly 3 unk 0 rl 0 frc 0 ovr 0 fb 0/0 | rf 95: frm 2 cand 5 nrg 89
+247395,2026-11-14,07:19:04,TPMS,INFO,wheels frm/age/rssi FL 5/43s/-71..-57 FR 7/43s/-67..-64 RL 0/--/-- RR 3/45s/-64..-61 | undecoded peak -57
+247395,2026-11-14,07:19:04,TPMS,INFO,repair: segs 6 variants 22 recovered 0 temp-refused 0 held 0 corrob 0 | caplog 60K drops 0
+247395,2026-11-14,07:19:04,TPMS,INFO,A/B off: p5 OOK16kM: cand 21 frm 15 snr 5 floor -77 | p4 OOK16kN: cand 0 frm 0 snr -- floor -73 | despiked seg 1630 adm 632660 | OE- 0 rfdump 59
+247801,2026-11-14,07:19:04,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -73 dur 8 ms (+15 not logged)
+258302,2026-11-14,07:19:15,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -73 dur 6 ms (+16 not logged)
+269552,2026-11-14,07:19:26,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -73 dur 8 ms (+21 not logged)
+279551,2026-11-14,07:19:36,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -73 dur 8 ms (+20 not logged)
+290553,2026-11-14,07:19:47,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -73 dur 8 ms (+16 not logged)
+300024,2026-11-14,07:19:56,HUB,INFO,vitals up=300s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=up rssi=-37 sat=20 pdop=1.16 gnss=10.00Hz/10 gap=136ms ep=2668 nack=0 heap=75704 aggr=45843us disp=113039us sd=50347
+301050,2026-11-14,07:19:58,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -76 dur 6 ms (+22 not logged)
+307393,2026-11-14,07:20:04,TPMS,INFO,radio marc 0x0D rssi -84 peak -64 floor -76 rfthr -66 | eng STREAM prof OOK16kM T 122us | edges 14180/s cs 0/s | lag 159ms
+307393,2026-11-14,07:20:04,TPMS,INFO,rx 60s: cand 0 frm 0 (MT 0 OE 0 OE* 0 ~0 -0) nofrm 0 idonly 0 unk 0 rl 0 frc 0 ovr 0 fb 0/0 | rf 109: frm 0 cand 0 nrg 108
+307393,2026-11-14,07:20:04,TPMS,INFO,wheels frm/age/rssi FL 0/103s/-- FR 0/103s/-- RL 0/--/-- RR 0/105s/-- | undecoded peak -63
+307393,2026-11-14,07:20:04,TPMS,INFO,repair: segs 0 variants 0 recovered 0 temp-refused 0 held 0 corrob 0 | caplog 72K drops 0
+307394,2026-11-14,07:20:04,TPMS,INFO,A/B off: p5 OOK16kM: cand 0 frm 0 snr -- floor -83 | p4 OOK16kN: cand 0 frm 0 snr -- floor -76 | despiked seg 1630 adm 833078 | OE- 0 rfdump 76
+312312,2026-11-14,07:20:09,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -76 dur 18 ms (+13 not logged)
+322801,2026-11-14,07:20:19,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -76 dur 8 ms (+17 not logged)
+332802,2026-11-14,07:20:29,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -76 dur 8 ms (+21 not logged)
+343053,2026-11-14,07:20:40,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -76 dur 10 ms (+15 not logged)
+353297,2026-11-14,07:20:50,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -76 dur 4 ms (+23 not logged)
+360024,2026-11-14,07:20:56,HUB,INFO,vitals up=360s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=up rssi=-33 sat=20 pdop=1.16 gnss=10.00Hz/10 gap=140ms ep=3268 nack=0 heap=67476 aggr=45843us disp=113039us sd=50347
+363301,2026-11-14,07:21:00,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -78 dur 8 ms (+35 not logged)
+367392,2026-11-14,07:21:04,TPMS,INFO,radio marc 0x0D rssi -86 peak -66 floor -78 rfthr -68 | eng STREAM prof OOK16kM T 122us | edges 13644/s cs 0/s | lag 152ms
+367393,2026-11-14,07:21:04,TPMS,INFO,rx 60s: cand 0 frm 0 (MT 0 OE 0 OE* 0 ~0 -0) nofrm 0 idonly 0 unk 0 rl 0 frc 0 ovr 0 fb 0/0 | rf 133: frm 0 cand 0 nrg 134
+367393,2026-11-14,07:21:04,TPMS,INFO,wheels frm/age/rssi FL 0/163s/-- FR 0/163s/-- RL 0/--/-- RR 0/165s/-- | undecoded peak -64
+367393,2026-11-14,07:21:04,TPMS,INFO,repair: segs 0 variants 0 recovered 0 temp-refused 0 held 0 corrob 0 | caplog 84K drops 0
+367393,2026-11-14,07:21:04,TPMS,INFO,A/B off: p5 OOK16kM: cand 0 frm 0 snr -- floor -85 | p4 OOK16kN: cand 0 frm 0 snr -- floor -78 | despiked seg 1630 adm 1023553 | OE- 0 rfdump 93
+373804,2026-11-14,07:21:10,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -78 dur 10 ms (+27 not logged)
+384055,2026-11-14,07:21:21,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -78 dur 12 ms (+18 not logged)
+395051,2026-11-14,07:21:32,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -78 dur 8 ms (+26 not logged)
+405303,2026-11-14,07:21:42,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -78 dur 10 ms (+20 not logged)
+415553,2026-11-14,07:21:52,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -78 dur 10 ms (+18 not logged)
+420024,2026-11-14,07:21:56,HUB,INFO,vitals up=420s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=up rssi=-34 sat=20 pdop=1.16 gnss=10.00Hz/10 gap=144ms ep=3868 nack=0 heap=61000 aggr=45843us disp=113039us sd=50347
+425811,2026-11-14,07:22:02,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -79 dur 18 ms (+15 not logged)
+427406,2026-11-14,07:22:04,TPMS,INFO,radio marc 0x0D rssi -85 peak -64 floor -79 rfthr -69 | eng STREAM prof OOK16kM T 122us | edges 13908/s cs 0/s | lag 168ms
+427407,2026-11-14,07:22:04,TPMS,INFO,rx 60s: cand 0 frm 0 (MT 0 OE 0 OE* 0 ~0 -0) nofrm 0 idonly 0 unk 0 rl 0 frc 0 ovr 0 fb 0/0 | rf 124: frm 0 cand 0 nrg 123
+427407,2026-11-14,07:22:04,TPMS,INFO,wheels frm/age/rssi FL 0/223s/-- FR 0/223s/-- RL 0/--/-- RR 0/225s/-- | undecoded peak -63
+427407,2026-11-14,07:22:04,TPMS,INFO,repair: segs 0 variants 0 recovered 0 temp-refused 0 held 0 corrob 0 | caplog 95K drops 0
+427407,2026-11-14,07:22:04,TPMS,INFO,A/B off: p5 OOK16kM: cand 0 frm 0 snr -- floor -82 | p4 OOK16kN: cand 0 frm 0 snr -- floor -79 | despiked seg 1630 adm 1217197 | OE- 0 rfdump 110
+436053,2026-11-14,07:22:13,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -79 dur 10 ms (+29 not logged)
+446059,2026-11-14,07:22:23,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -79 dur 18 ms (+35 not logged)
+456325,2026-11-14,07:22:33,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -79 dur 30 ms (+29 not logged)
+466565,2026-11-14,07:22:43,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -79 dur 22 ms (+38 not logged)
+476573,2026-11-14,07:22:53,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -79 dur 30 ms (+40 not logged)
+480024,2026-11-14,07:22:56,HUB,INFO,vitals up=480s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=up rssi=-36 sat=20 pdop=1.31 gnss=10.00Hz/10 gap=144ms ep=4468 nack=0 heap=75704 aggr=45843us disp=113039us sd=50347
+481288,2026-11-14,07:22:58,TPMS_RR,INFO,OE CRC OK 202.5 kPa 29.4 psi 24 C raw 0x51 rssi -62 snr 20 p5 dt 279.6s T121 hdr 8/8 f25 prev+2
+481451,2026-11-14,07:22:58,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -66 payload 51 4A 00 00
+483210,2026-11-14,07:23:00,TPMS_RL,INFO,OE CRC OK 187.5 kPa 27.2 psi 25 C raw 0x4B rssi -72 snr 7 p5 first@483s T121 hdr 8/8 f26
+484217,2026-11-14,07:23:01,TPMS_RL,INFO,ID only (no CRC) bit 4 (28-bit MSB-first) rssi -74 payload 4B 4B 00 00
+486801,2026-11-14,07:23:03,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -78 dur 8 ms (+27 not logged)
+487407,2026-11-14,07:23:04,TPMS,INFO,radio marc 0x0D rssi -82 peak -64 floor -78 rfthr -68 | eng STREAM prof OOK16kM T 122us | edges 13707/s cs 4/s | lag 174ms
+487407,2026-11-14,07:23:04,TPMS,INFO,rx 60s: cand 16 frm 9 (MT 0 OE 8 OE* 0 ~1 -0) nofrm 7 idonly 2 unk 0 rl 0 frc 0 ovr 0 fb 0/0 | rf 210: frm 8 cand 1 nrg 201
+487407,2026-11-14,07:23:04,TPMS,INFO,wheels frm/age/rssi FL 0/283s/-- FR 0/283s/-- RL 3/3s/-74..-69 RR 6/5s/-68..-62 | undecoded peak -63
+487407,2026-11-14,07:23:04,TPMS,INFO,repair: segs 6 variants 23 recovered 1 temp-refused 0 held 0 corrob 0 | caplog 120K drops 0
+487407,2026-11-14,07:23:04,TPMS,INFO,A/B off: p5 OOK16kM: cand 16 frm 9 snr 8 floor -81 | p4 OOK16kN: cand 0 frm 0 snr -- floor -78 | despiked seg 2594 adm 1411424 | OE- 0 rfdump 129
+492424,2026-11-14,07:23:09,TPMS_FR,INFO,OE CRC OK 190.0 kPa 27.6 psi 26 C raw 0x4C rssi -68 snr 12 p5 dt 288.3s T121 hdr 8/8 f25 prev+6
+496811,2026-11-14,07:23:13,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -78 dur 18 ms (+33 not logged)
+498612,2026-11-14,07:23:15,TPMS_FL,INFO,OE CRC OK 192.5 kPa 27.9 psi 27 C raw 0x4D rssi -54 snr 25 p5 dt 295.2s T122 hdr 8/8 f26 prev+4
+498880,2026-11-14,07:23:15,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -62 payload 00 00 00 00
+507049,2026-11-14,07:23:24,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -78 dur 6 ms (+31 not logged)
+509856,2026-11-14,07:23:26,TPMS_RR,INFO,OE CRC OK 202.5 kPa 29.4 psi 24 C raw 0x51 rssi -62 snr 15 p5 dt 27.4s T121 hdr 8/8 f25 prev+5
+510029,2026-11-14,07:23:26,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -59 payload 51 4A 00 00
+513777,2026-11-14,07:23:30,TPMS_RL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -73 payload 4B 4B 00 00
+514271,2026-11-14,07:23:31,TPMS_RL,INFO,ID only (no CRC) bit 0 (28-bit MSB-first) rssi -74 payload 4B 4B 00 00
+514295,2026-11-14,07:23:31,TPMS_RL,INFO,OE~ CRC OK 187.5 kPa 27.2 psi 25 C raw 0x4B rssi -74 snr 6 p5 dt 30.0s T121 hdr 0/8 f26 prev+2
+517063,2026-11-14,07:23:34,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -78 dur 20 ms (+30 not logged)
+527073,2026-11-14,07:23:44,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -78 dur 30 ms (+42 not logged)
+537307,2026-11-14,07:23:54,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -78 dur 12 ms (+40 not logged)
+540024,2026-11-14,07:23:56,HUB,INFO,vitals up=540s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=up rssi=-35 sat=20 pdop=1.31 gnss=10.00Hz/10 gap=144ms ep=5068 nack=0 heap=75752 aggr=45843us disp=113039us sd=50347
+547321,2026-11-14,07:24:04,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -75 dur 24 ms (+41 not logged)
+547448,2026-11-14,07:24:04,TPMS,INFO,radio marc 0x0D rssi -86 peak -64 floor -75 rfthr -65 | eng STREAM prof OOK16kM T 122us | edges 13610/s cs 0/s | lag 175ms
+547448,2026-11-14,07:24:04,TPMS,INFO,rx 60s: cand 31 frm 24 (MT 0 OE 20 OE* 1 ~2 -1) nofrm 7 idonly 4 unk 0 rl 0 frc 0 ovr 0 fb 0/0 | rf 228: frm 7 cand 12 nrg 209
+547449,2026-11-14,07:24:04,TPMS,INFO,wheels frm/age/rssi FL 7/47s/-66..-54 FR 8/53s/-68..-64 RL 1/33s/-74..-74 RR 8/36s/-64..-59 | undecoded peak -59
+547449,2026-11-14,07:24:04,TPMS,INFO,repair: segs 6 variants 26 recovered 2 temp-refused 0 held 0 corrob 0 | caplog 155K drops 0
+547449,2026-11-14,07:24:04,TPMS,INFO,A/B off: p5 OOK16kM: cand 31 frm 24 snr 8 floor -86 | p4 OOK16kN: cand 0 frm 0 snr -- floor -75 | despiked seg 4348 adm 1604646 | OE- 1 rfdump 148
+557323,2026-11-14,07:24:14,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -75 dur 30 ms (+39 not logged)
+561270,2026-11-14,07:24:18,TPMS_FL,INFO,OE CRC OK 192.5 kPa 27.9 psi 27 C raw 0x4D rssi -62 snr 20 p5 dt 61.5s T121 hdr 8/8 f26 prev+6
+562253,2026-11-14,07:24:19,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -63 payload 4D 00 00 00
+567567,2026-11-14,07:24:24,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -75 dur 24 ms (+37 not logged)
+569335,2026-11-14,07:24:26,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -61 payload 00 00 00 00
+569448,2026-11-14,07:24:26,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -68 payload 00 00 00 00
+569734,2026-11-14,07:24:26,TPMS_RR,INFO,OE CRC OK 202.5 kPa 29.4 psi 24 C raw 0x51 rssi -61 snr 10 p5 dt 58.8s T121 hdr 8/8 f25 prev+7
+577524,2026-11-14,07:24:34,TPMS_FR,INFO,OE CRC OK 192.5 kPa 27.9 psi 26 C raw 0x4D rssi -64 snr 17 p5 dt 83.9s T121 hdr 8/8 f25 prev+7
+577666,2026-11-14,07:24:34,TPMS,INFO,RF event; no frame of ours: CAND (Manchester seen; no CRC) peak -59 dBm floor -75 dur 34 ms (+39 not logged)
+587817,2026-11-14,07:24:44,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -75 dur 22 ms (+39 not logged)
+598069,2026-11-14,07:24:55,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -75 dur 26 ms (+42 not logged)
+599279,2026-11-14,07:24:56,TPMS_RL,INFO,ID only (no CRC) bit 3 (28-bit MSB-first) rssi -73 payload 4B 4B 00 00
+600024,2026-11-14,07:24:56,HUB,INFO,vitals up=600s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=up rssi=-39 sat=20 pdop=1.31 gnss=10.00Hz/10 gap=144ms ep=5668 nack=0 heap=75752 aggr=45843us disp=113039us sd=50347
+607548,2026-11-14,07:25:04,TPMS,INFO,radio marc 0x0D rssi -81 peak -64 floor -78 rfthr -68 | eng STREAM prof OOK16kM T 122us | edges 13076/s cs 3/s | lag 157ms
+607548,2026-11-14,07:25:04,TPMS,INFO,rx 60s: cand 30 frm 13 (MT 0 OE 13 OE* 0 ~0 -0) nofrm 17 idonly 4 unk 0 rl 0 frc 0 ovr 0 fb 0/0 | rf 248: frm 10 cand 12 nrg 225
+607549,2026-11-14,07:25:04,TPMS,INFO,wheels frm/age/rssi FL 4/45s/-62..-54 FR 6/29s/-64..-51 RL 0/93s/-- RR 3/37s/-63..-61 | undecoded peak -51
+607549,2026-11-14,07:25:04,TPMS,INFO,repair: segs 16 variants 80 recovered 0 temp-refused 0 held 0 corrob 0 | caplog 190K drops 0
+607549,2026-11-14,07:25:04,TPMS,INFO,A/B off: p5 OOK16kM: cand 30 frm 13 snr 16 floor -84 | p4 OOK16kN: cand 0 frm 0 snr -- floor -78 | despiked seg 5674 adm 1788117 | OE- 1 rfdump 167
+608071,2026-11-14,07:25:05,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -78 dur 28 ms (+38 not logged)
+614708,2026-11-14,07:25:11,TPMS_FL,INFO,OE CRC OK 192.5 kPa 27.9 psi 27 C raw 0x4D rssi -50 snr 32 p5 dt 52.7s T121 hdr 8/8 f26 prev+3
+615839,2026-11-14,07:25:12,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -55 payload 4D 00 00 00
+618071,2026-11-14,07:25:15,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -78 dur 28 ms (+39 not logged)
+628071,2026-11-14,07:25:25,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -78 dur 28 ms (+41 not logged)
+635532,2026-11-14,07:25:32,TPMS_RR,INFO,OE* CRC OK 202.5 kPa 29.4 psi 24 C raw 0x51 rssi -62 snr 20 p5 dt 65.3s T121 hdr 5/8 f25 prev+2
+635812,2026-11-14,07:25:32,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -62 payload 51 4A 00 00
+638313,2026-11-14,07:25:35,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -78 dur 18 ms (+38 not logged)
+648319,2026-11-14,07:25:45,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -78 dur 28 ms (+40 not logged)
+658553,2026-11-14,07:25:55,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -78 dur 10 ms (+39 not logged)
+660024,2026-11-14,07:25:56,HUB,INFO,vitals up=660s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=up rssi=-38 sat=21 pdop=1.23 gnss=10.00Hz/10 gap=144ms ep=6268 nack=0 heap=71984 aggr=45843us disp=113039us sd=50347
+661350,2026-11-14,07:25:58,TPMS_FL,INFO,OE CRC OK 192.5 kPa 27.9 psi 27 C raw 0x4D rssi -53 snr 25 p5 dt 45.4s T121 hdr 8/8 f26 prev+6
+661631,2026-11-14,07:25:58,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -57 payload 00 00 00 00
+661979,2026-11-14,07:25:58,TPMS_FR,INFO,OE CRC OK 195.0 kPa 28.3 psi 28 C raw 0x4E rssi -55 snr 20 p5 dt 83.5s T122 hdr 8/8 f25 prev+5
+662364,2026-11-14,07:25:59,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -57 payload 4D 4D 00 00
+662999,2026-11-14,07:25:59,TPMS_FR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -64 payload 00 00 00 00
+667647,2026-11-14,07:26:04,TPMS,INFO,radio marc 0x0D rssi -81 peak -63 floor -77 rfthr -67 | eng STREAM prof OOK16kM T 122us | edges 13205/s cs 0/s | lag 286ms
+667647,2026-11-14,07:26:04,TPMS,INFO,rx 60s: cand 32 frm 26 (MT 0 OE 21 OE* 2 ~3 -0) nofrm 6 idonly 5 unk 0 rl 0 frc 0 ovr 0 fb 0/0 | rf 245: frm 12 cand 12 nrg 223
+667647,2026-11-14,07:26:04,TPMS,INFO,wheels frm/age/rssi FL 12/4s/-64..-50 FR 8/4s/-69..-55 RL 0/153s/-- RR 6/31s/-65..-60 | undecoded peak -50
+667648,2026-11-14,07:26:04,TPMS,INFO,repair: segs 8 variants 35 recovered 3 temp-refused 0 held 0 corrob 0 | caplog 218K drops 0
+667648,2026-11-14,07:26:04,TPMS,INFO,A/B off: p5 OOK16kM: cand 32 frm 26 snr 15 floor -81 | p4 OOK16kN: cand 0 frm 0 snr -- floor -77 | despiked seg 6728 adm 1973428 | OE- 1 rfdump 186
+668567,2026-11-14,07:26:05,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -77 dur 24 ms (+31 not logged)
+671279,2026-11-14,07:26:08,TPMS_RR,INFO,OE~ CRC OK 202.5 kPa 29.4 psi 26 C raw 0x51 rssi -62 snr 15 p5 dt 34.8s T121 id 16/28 at 0 f25 prev+5
+671807,2026-11-14,07:26:08,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -63 payload 50 00 00 00
+673792,2026-11-14,07:26:10,TPMS_RL,INFO,OE* CRC OK 187.5 kPa 27.2 psi 25 C raw 0x4B rssi -71 snr 1 p5 dt 159.5s T117 hdr 6/8 f26
+679057,2026-11-14,07:26:16,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -77 dur 8 ms (+35 not logged)
+689069,2026-11-14,07:26:26,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -77 dur 26 ms (+38 not logged)
+697229,2026-11-14,07:26:34,TPMS_FL,INFO,OE CRC OK 202.5 kPa 29.4 psi 29 C raw 0x51 rssi -57 snr 24 p5 dt 34.4s T121 hdr 8/8 f26 prev+4
+698233,2026-11-14,07:26:35,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -60 payload 51 00 00 00
+698625,2026-11-14,07:26:35,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -68 payload 51 4F 00 00
+699317,2026-11-14,07:26:36,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -77 dur 24 ms (+38 not logged)
+706852,2026-11-14,07:26:43,TPMS_RR,INFO,OE CRC OK 202.5 kPa 29.4 psi 27 C raw 0x51 rssi -63 snr 16 p5 dt 34.6s T120 hdr 8/8 f25 prev+3
+709319,2026-11-14,07:26:46,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -77 dur 24 ms (+38 not logged)
+719577,2026-11-14,07:26:56,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -77 dur 20 ms (+42 not logged)
+720024,2026-11-14,07:26:56,HUB,INFO,vitals up=720s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=up rssi=-38 sat=21 pdop=1.23 gnss=10.00Hz/10 gap=144ms ep=6868 nack=0 heap=59844 aggr=45843us disp=187957us sd=50347
+726804,2026-11-14,07:27:03,TPMS_FR,INFO,OE CRC OK 195.0 kPa 28.3 psi 28 C raw 0x4E rssi -52 snr 25 p5 dt 63.4s T121 hdr 8/8 f25 prev+7
+728098,2026-11-14,07:27:05,TPMS,INFO,radio marc 0x0D rssi -83 peak -52 floor -77 rfthr -67 | eng STREAM prof OOK16kM T 121us | edges 13192/s cs 3/s | lag 547ms
+728098,2026-11-14,07:27:05,TPMS,INFO,rx 60s: cand 38 frm 24 (MT 0 OE 17 OE* 2 ~3 -2) nofrm 14 idonly 3 unk 0 rl 0 frc 0 ovr 0 fb 1/0 | rf 245: frm 19 cand 14 nrg 211
+728098,2026-11-14,07:27:05,TPMS,INFO,wheels frm/age/rssi FL 4/29s/-68..-57 FR 8/0s/-70..-52 RL 2/53s/-72..-71 RR 10/20s/-66..-60 | undecoded peak -55
+728098,2026-11-14,07:27:05,TPMS,INFO,repair: segs 15 variants 60 recovered 3 temp-refused 0 held 0 corrob 0 | caplog 255K drops 0
+728098,2026-11-14,07:27:05,TPMS,INFO,A/B off: p5 OOK16kM: cand 38 frm 24 snr 13 floor -83 | p4 OOK16kN: cand 0 frm 0 snr -- floor -77 | despiked seg 8572 adm 2156420 | OE- 3 rfdump 204
+729814,2026-11-14,07:27:06,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -77 dur 20 ms (+31 not logged)
+732881,2026-11-14,07:27:09,TPMS_FL,INFO,OE CRC OK 195.0 kPa 28.3 psi 29 C raw 0x4E rssi -48 snr 33 p5 dt 34.2s T121 hdr 8/8 f26 prev+3
+733036,2026-11-14,07:27:09,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -60 payload 4E 00 00 00
+733246,2026-11-14,07:27:10,TPMS_RL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -55 payload 00 00 00 00
+733534,2026-11-14,07:27:10,TPMS_RL,INFO,OE CRC OK 187.5 kPa 27.2 psi 26 C raw 0x4B rssi -60 snr 11 p5 dt 59.0s T120 hdr 8/8 f26 prev+1
+740069,2026-11-14,07:27:17,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -77 dur 26 ms (+41 not logged)
+742489,2026-11-14,07:27:19,TPMS_RR,INFO,OE CRC OK 202.5 kPa 29.4 psi 27 C raw 0x51 rssi -63 snr 18 p5 dt 34.5s T121 hdr 8/8 f25 prev+5
+750553,2026-11-14,07:27:27,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -77 dur 8 ms (+28 not logged)
+756517,2026-11-14,07:27:33,HUB,WARN,WiFi disconnected (SSID: MME_AP)
+762505,2026-11-14,07:27:39,TPMS_FR,INFO,OE CRC OK 195.0 kPa 28.3 psi 33 C raw 0x4E rssi -62 snr 16 p5 dt 34.5s T121 hdr 8/8 f25 prev+7
+762635,2026-11-14,07:27:39,TPMS,INFO,RF event; no frame of ours: CAND (Manchester seen; no CRC) peak -65 dBm floor -77 dur 20 ms (+40 not logged)
+768612,2026-11-14,07:27:45,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -52 payload 00 00 00 00
+768773,2026-11-14,07:27:45,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -52 payload 00 00 00 00
+769192,2026-11-14,07:27:46,TPMS_FL,INFO,OE* CRC OK 195.0 kPa 28.3 psi 31 C raw 0x4E rssi -62 snr 11 p5 dt 35.3s T122 hdr 7/8 f26 prev+5
+769337,2026-11-14,07:27:46,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -62 payload 00 00 00 00
+770055,2026-11-14,07:27:47,TPMS_RL,INFO,ID only (no CRC) bit 13 (28-bit MSB-first) rssi -62 payload 00 00 00 00
+772809,2026-11-14,07:27:49,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -63 dBm floor -77 dur 16 ms (+14 not logged)
+778119,2026-11-14,07:27:55,TPMS_RR,INFO,OE CRC OK 202.5 kPa 29.4 psi 30 C raw 0x51 rssi -59 snr 15 p5 dt 34.5s T121 hdr 8/8 f25 prev+6
+778715,2026-11-14,07:27:55,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -61 payload 51 50 00 00
+779213,2026-11-14,07:27:56,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -60 payload 51 00 00 00
+780023,2026-11-14,07:27:56,HUB,INFO,vitals up=780s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=down rssi=0 sat=20 pdop=1.32 gnss=10.00Hz/10 gap=144ms ep=7468 nack=0 heap=75772 aggr=45843us disp=195315us sd=50347
+783067,2026-11-14,07:28:00,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -74 dur 24 ms (+31 not logged)
+788153,2026-11-14,07:28:05,TPMS,INFO,radio marc 0x0D rssi -77 peak -63 floor -74 rfthr -64 | eng STREAM prof OOK16kM T 121us | edges 12827/s cs 0/s | lag 562ms
+788154,2026-11-14,07:28:05,TPMS,INFO,rx 60s: cand 44 frm 34 (MT 0 OE 23 OE* 2 ~4 -5) nofrm 10 idonly 8 unk 0 rl 0 frc 0 ovr 0 fb 1/0 | rf 180: frm 11 cand 15 nrg 154
+788154,2026-11-14,07:28:05,TPMS,INFO,wheels frm/age/rssi FL 11/18s/-66..-48 FR 8/24s/-62..-45 RL 2/54s/-68..-60 RR 13/8s/-66..-59 | undecoded peak -45
+788154,2026-11-14,07:28:05,TPMS,INFO,repair: segs 15 variants 60 recovered 4 temp-refused 0 held 0 corrob 0 | caplog 292K drops 0
+788154,2026-11-14,07:28:05,TPMS,INFO,A/B off: p5 OOK16kM: cand 44 frm 34 snr 13 floor -77 | p4 OOK16kN: cand 0 frm 0 snr -- floor -74 | despiked seg 10498 adm 2326022 | OE- 8 rfdump 221
+793315,2026-11-14,07:28:10,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -74 dur 22 ms (+22 not logged)
+798160,2026-11-14,07:28:15,TPMS_FR,INFO,OE CRC OK 195.0 kPa 28.3 psi 33 C raw 0x4E rssi -46 snr 30 p5 dt 34.5s T122 hdr 8/8 f25 prev+7
+803325,2026-11-14,07:28:20,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -74 dur 32 ms (+29 not logged)
+804402,2026-11-14,07:28:21,TPMS_FL,INFO,OE CRC OK 195.0 kPa 28.3 psi 31 C raw 0x4E rssi -56 snr 13 p5 dt 34.4s T122 hdr 8/8 f26 prev+4
+813564,2026-11-14,07:28:30,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -74 dur 20 ms (+35 not logged)
+814030,2026-11-14,07:28:30,TPMS_RR,INFO,OE CRC OK 202.5 kPa 29.4 psi 30 C raw 0x51 rssi -65 snr 13 p5 dt 34.7s T121 hdr 8/8 f25 prev+5
+814158,2026-11-14,07:28:31,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -65 payload 00 00 00 00
+823569,2026-11-14,07:28:40,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -74 dur 26 ms (+25 not logged)
+833774,2026-11-14,07:28:50,TPMS_FR,INFO,OE CRC OK 195.0 kPa 28.3 psi 35 C raw 0x4E rssi -63 snr 13 p5 dt 34.5s T121 hdr 8/8 f25 prev+6
+833934,2026-11-14,07:28:50,TPMS_FR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -61 payload 4E 55 00 00
+833969,2026-11-14,07:28:50,TPMS,INFO,RF event; no frame of ours: CAND (Manchester seen; no CRC) peak -64 dBm floor -74 dur 16 ms (+25 not logged)
+834863,2026-11-14,07:28:51,TPMS_FR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -59 payload 00 00 00 00
+839988,2026-11-14,07:28:56,TPMS_FL,INFO,OE CRC OK 202.5 kPa 29.4 psi 33 C raw 0x51 rssi -54 snr 23 p5 dt 34.7s T121 hdr 8/8 f26 prev+5
+840023,2026-11-14,07:28:56,HUB,INFO,vitals up=840s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=down rssi=0 sat=21 pdop=1.23 gnss=10.00Hz/10 gap=149ms ep=8068 nack=0 heap=75760 aggr=45843us disp=195315us sd=50347
+840357,2026-11-14,07:28:57,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -60 payload 51 00 00 00
+840612,2026-11-14,07:28:57,TPMS_RL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -63 payload 4C 00 00 00
+841015,2026-11-14,07:28:57,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -68 payload 51 53 00 00
+841254,2026-11-14,07:28:58,TPMS_RL,INFO,OE* CRC OK 190.0 kPa 27.6 psi 29 C raw 0x4C rssi -68 snr 9 p5 dt 107.1s T123 hdr 4/8 f26 prev+1
+844059,2026-11-14,07:29:01,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -78 dur 16 ms (+32 not logged)
+848195,2026-11-14,07:29:05,TPMS,INFO,radio marc 0x0D rssi -79 peak -63 floor -78 rfthr -68 | eng STREAM prof OOK16kM T 121us | edges 12493/s cs 0/s | lag 277ms
+848196,2026-11-14,07:29:05,TPMS,INFO,rx 60s: cand 43 frm 30 (MT 0 OE 24 OE* 3 ~1 -2) nofrm 13 idonly 6 unk 0 rl 0 frc 0 ovr 0 fb 0/0 | rf 199: frm 14 cand 18 nrg 168
+848196,2026-11-14,07:29:05,TPMS,INFO,wheels frm/age/rssi FL 10/7s/-68..-51 FR 14/13s/-63..-45 RL 1/6s/-68..-68 RR 5/33s/-65..-62 | undecoded peak -45
+848196,2026-11-14,07:29:05,TPMS,INFO,repair: segs 14 variants 57 recovered 1 temp-refused 0 held 0 corrob 0 | caplog 329K drops 0
+848196,2026-11-14,07:29:05,TPMS,INFO,A/B off: p5 OOK16kM: cand 43 frm 30 snr 14 floor -78 | p4 OOK16kN: cand 0 frm 0 snr -- floor -78 | despiked seg 12222 adm 2487303 | OE- 10 rfdump 240
+849294,2026-11-14,07:29:06,TPMS_RR,INFO,OE CRC OK 202.5 kPa 29.4 psi 32 C raw 0x51 rssi -61 snr 16 p5 dt 34.4s T121 hdr 8/8 f25 prev+4
+849732,2026-11-14,07:29:06,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -61 payload 51 52 00 00
+849910,2026-11-14,07:29:06,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -66 payload 51 52 00 00
+850391,2026-11-14,07:29:07,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -61 payload 51 00 00 00
+854063,2026-11-14,07:29:11,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -78 dur 14 ms (+25 not logged)
+864801,2026-11-14,07:29:21,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -78 dur 8 ms (+37 not logged)
+869518,2026-11-14,07:29:26,TPMS_FR,INFO,OE* CRC OK 195.0 kPa 28.3 psi 35 C raw 0x4E rssi -52 snr 22 p5 dt 34.7s T122 hdr 7/8 f25 prev+6
+874819,2026-11-14,07:29:31,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -78 dur 20 ms (+21 not logged)
+875772,2026-11-14,07:29:32,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -60 payload 00 00 00 00
+875896,2026-11-14,07:29:32,TPMS_FL,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -61 payload 00 00 00 00
+876052,2026-11-14,07:29:33,TPMS_FL,INFO,OE CRC OK 202.5 kPa 29.4 psi 33 C raw 0x51 rssi -60 snr 5 p5 dt 35.1s T121 hdr 8/8 f26 prev+3
+884831,2026-11-14,07:29:41,TPMS_RR,INFO,OE CRC OK 202.5 kPa 29.4 psi 32 C raw 0x51 rssi -60 snr 14 p5 dt 34.9s T122 hdr 8/8 f25 prev+4
+885001,2026-11-14,07:29:41,TPMS_RR,INFO,ID only (no CRC) bit 5 (28-bit MSB-first) rssi -63 payload 51 52 00 00
+885701,2026-11-14,07:29:42,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -63 payload 51 00 00 00
+886815,2026-11-14,07:29:43,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -78 dur 20 ms (+15 not logged)
+897059,2026-11-14,07:29:54,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -78 dur 4 ms (+24 not logged)
+900024,2026-11-14,07:29:56,HUB,INFO,vitals up=900s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=down rssi=0 sat=20 pdop=1.32 gnss=10.00Hz/10 gap=149ms ep=8668 nack=0 heap=75772 aggr=45843us disp=195315us sd=50347
+904988,2026-11-14,07:30:01,TPMS_FR,INFO,OE CRC OK 195.0 kPa 28.3 psi 38 C raw 0x4E rssi -52 snr 24 p5 dt 34.6s T122 hdr 8/8 f25 prev+4
+906106,2026-11-14,07:30:03,TPMS_FR,INFO,ID only (no CRC) bit 14 (28-bit MSB-first) rssi -45 payload 4E 58 00 00
+907069,2026-11-14,07:30:04,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -77 dur 26 ms (+23 not logged)
+908196,2026-11-14,07:30:05,TPMS,INFO,radio marc 0x0D rssi -80 peak -45 floor -77 rfthr -67 | eng STREAM prof OOK16kM T 121us | edges 12653/s cs 0/s | lag 183ms
+908196,2026-11-14,07:30:05,TPMS,INFO,rx 60s: cand 39 frm 25 (MT 0 OE 18 OE* 3 ~4 -0) nofrm 14 idonly 8 unk 0 rl 0 frc 0 ovr 0 fb 0/0 | rf 153: frm 14 cand 11 nrg 127
+908196,2026-11-14,07:30:05,TPMS,INFO,wheels frm/age/rssi FL 2/31s/-60..-60 FR 13/2s/-64..-45 RL 0/66s/-- RR 10/22s/-66..-60 | undecoded peak -52
+908196,2026-11-14,07:30:05,TPMS,INFO,repair: segs 18 variants 67 recovered 4 temp-refused 0 held 0 corrob 0 | caplog 377K drops 0
+908196,2026-11-14,07:30:05,TPMS,INFO,A/B off: p5 OOK16kM: cand 39 frm 25 snr 12 floor -78 | p4 OOK16kN: cand 0 frm 0 snr -- floor -77 | despiked seg 13894 adm 2650996 | OE- 10 rfdump 258
+911178,2026-11-14,07:30:08,TPMS_FL,INFO,OE CRC OK 202.5 kPa 29.4 psi 35 C raw 0x51 rssi -61 snr 15 p5 dt 34.9s T122 hdr 8/8 f26 prev+1
+912362,2026-11-14,07:30:09,TPMS_RL,INFO,OE CRC OK 190.0 kPa 27.6 psi 30 C raw 0x4C rssi -64 snr 12 p5 dt 71.1s T122 hdr 8/8 f26
+917303,2026-11-14,07:30:14,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -77 dur 4 ms (+32 not logged)
+920560,2026-11-14,07:30:17,TPMS_RR,INFO,ID only (no CRC) bit 15 (28-bit MSB-first) rssi -67 payload 51 55 00 00
+920584,2026-11-14,07:30:17,TPMS_RR,INFO,OE~ CRC OK 202.5 kPa 29.4 psi 34 C raw 0x51 rssi -67 snr 10 p5 dt 35.0s T120 hdr 8/8 f25 prev+4
+927319,2026-11-14,07:30:24,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -77 dur 26 ms (+35 not logged)
+936033,2026-11-14,07:30:32,TPMS_FL,INFO,OE CRC OK 202.5 kPa 29.4 psi 35 C raw 0x51 rssi -59 snr 18 p5 dt 24.0s T121 hdr 8/8 f26 prev+5
+937565,2026-11-14,07:30:34,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -77 dur 22 ms (+35 not logged)
+947815,2026-11-14,07:30:44,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -64 dBm floor -77 dur 22 ms (+41 not logged)
+958050,2026-11-14,07:30:55,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -67 dBm floor -77 dur 6 ms (+23 not logged)
+960023,2026-11-14,07:30:56,HUB,INFO,vitals up=960s mode=NORMAL tx=0 rx=0 rst=1 tire=4/4 brake=3/4 wifi=down rssi=0 sat=19 pdop=1.35 gnss=10.00Hz/10 gap=152ms ep=9268 nack=0 heap=75932 aggr=45843us disp=195315us sd=50347
+968051,2026-11-14,07:31:05,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -77 dur 8 ms (+24 not logged)
+968196,2026-11-14,07:31:05,TPMS,INFO,radio marc 0x0D rssi -78 peak -63 floor -77 rfthr -67 | eng STREAM prof OOK16kM T 121us | edges 12508/s cs 0/s | lag 164ms
+968196,2026-11-14,07:31:05,TPMS,INFO,rx 60s: cand 25 frm 21 (MT 0 OE 18 OE* 0 ~1 -2) nofrm 4 idonly 1 unk 0 rl 0 frc 0 ovr 0 fb 0/0 | rf 207: frm 14 cand 8 nrg 185
+968196,2026-11-14,07:31:05,TPMS,INFO,wheels frm/age/rssi FL 14/31s/-63..-49 FR 0/62s/-- RL 1/55s/-64..-64 RR 6/46s/-67..-61 | undecoded peak -58
+968196,2026-11-14,07:31:05,TPMS,INFO,repair: segs 5 variants 16 recovered 1 temp-refused 0 held 0 corrob 0 | caplog 400K drops 0
+968196,2026-11-14,07:31:05,TPMS,INFO,A/B off: p5 OOK16kM: cand 25 frm 21 snr 12 floor -79 | p4 OOK16kN: cand 0 frm 0 snr -- floor -77 | despiked seg 14888 adm 2811045 | OE- 12 rfdump 276
+978057,2026-11-14,07:31:15,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -77 dur 14 ms (+23 not logged)
+988297,2026-11-14,07:31:25,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -66 dBm floor -77 dur 4 ms (+23 not logged)
+999055,2026-11-14,07:31:36,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -65 dBm floor -77 dur 10 ms (+22 not logged)
+1010053,2026-11-14,07:31:47,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -69 dBm floor -77 dur 4 ms (+8 not logged)

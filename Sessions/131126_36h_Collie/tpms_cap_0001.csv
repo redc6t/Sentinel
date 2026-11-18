@@ -1,0 +1,2 @@
+# BTTM v4.7.0 TPMS candidate capture. C=candidate header, P=pulses (+high/-low us)
+C,cand,millis,outcome,wheel,rssi,floor,T,d,pulses,strmT

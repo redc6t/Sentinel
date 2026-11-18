@@ -1,0 +1,30 @@
+Millis,Date,Time,Source,Severity,Event
+27384,,,GNSS,INFO,10Hz (req 100ms act 100ms) 115200 baud autoPVT=1 nacks=0 sigplan=GPS+GAL+BDS+QZSS_L1L5_L5override
+29268,,,HUB,INFO,WiFi got IP: 192.168.0.40 (SSID: MME_AP)
+36650,,,TPMS,INFO,CC1101 bring-up OK (partnum 0x00 version 0x14): all tracks proven good - fault is read framing; not wiring
+36650,,,TPMS,INFO,rx engine STREAM prof 5 'OOK16kM' T seed 122us admit 38/48 ring 8192 prio 3; no RSSI gate - CRC + known ID publish only; OE flags seed 0x04
+39795,,,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -73 dBm floor -81 dur 10 ms (+0 not logged)
+51774,2026-11-12,21:49:30,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -74 dBm floor -81 dur 4 ms (+2 not logged)
+60006,2026-11-12,21:49:38,HUB,INFO,vitals up=60s mode=LISTEN_ONLY tx=0 rx=0 rst=0 tire=0/4 brake=0/4 wifi=up rssi=-34 sat=5 pdop=2.56 gnss=10.02Hz/10 gap=130ms ep=286 nack=0 heap=66336 aggr=8683us disp=62960us sd=59807u
+61475,2026-11-12,21:49:40,HUB,INFO,LISTEN_ONLY silent 30009ms -> NORMAL probe (ACK support; 3s window)
+61673,2026-11-12,21:49:40,TPMS,INFO,radio marc 0x0D rssi -88 peak -73 floor -86 rfthr -76 | eng STREAM prof OOK16kM T 122us | edges 5430/s cs 0/s | lag 58ms
+61673,2026-11-12,21:49:40,TPMS,INFO,rx 61s: cand 0 frm 0 (MT 0 OE 0 OE* 0 ~0 -0) nofrm 0 idonly 0 unk 0 rl 0 frc 0 ovr 0 fb 0/0 | rf 9: frm 0 cand 0 nrg 8
+61674,2026-11-12,21:49:40,TPMS,INFO,wheels frm/age/rssi FL 0/--/-- FR 0/--/-- RL 0/--/-- RR 0/--/-- | undecoded peak -71
+61674,2026-11-12,21:49:40,TPMS,INFO,repair: segs 0 variants 0 recovered 0 temp-refused 0 held 0 corrob 0 | caplog 2K drops 0
+61674,2026-11-12,21:49:40,TPMS,INFO,A/B off: p5 OOK16kM: cand 0 frm 0 snr -- floor -88 | p4 OOK16kN: cand 0 frm 0 snr -- floor -86 | despiked seg 0 adm 75666 | OE- 0 rfdump 4
+61776,2026-11-12,21:49:40,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -74 dBm floor -86 dur 10 ms (+4 not logged)
+64486,2026-11-12,21:49:43,HUB,WARN,SILENCE 3000ms in NORMAL (tx_err=0 rx_err=0) -> LISTEN_ONLY
+71784,2026-11-12,21:49:50,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -73 dBm floor -86 dur 4 ms (+4 not logged)
+83017,2026-11-12,21:50:01,HUB,WARN,WiFi disconnected (SSID: MME_AP)
+85230,2026-11-12,21:50:04,TPMS,INFO,survey rows on profile 5 'OOK16kM' unless named (BW203 = profile 0; BW102 = profile 4)
+85230,2026-11-12,21:50:04,TPMS,INFO,survey base               med -88 p90 -86 max -79 dBm (delta med +0 vs base)
+85231,2026-11-12,21:50:04,TPMS,INFO,survey display held       med -87 p90 -84 max -78 dBm (delta med +1 vs base)
+85231,2026-11-12,21:50:04,TPMS,INFO,survey SD+syslog held     med -88 p90 -85 max -79 dBm (delta med +0 vs base)
+85231,2026-11-12,21:50:04,TPMS,INFO,survey WiFi off           med -89 p90 -87 max -86 dBm (delta med -1 vs base)
+85231,2026-11-12,21:50:04,TPMS,INFO,survey all held           med -89 p90 -87 max -85 dBm (delta med -1 vs base)
+85231,2026-11-12,21:50:04,TPMS,INFO,survey all held; BW203    med -83 p90 -82 max -80 dBm (delta med +5 vs base)
+85231,2026-11-12,21:50:04,TPMS,INFO,survey all held; BW102    med -88 p90 -87 max -85 dBm (delta med +0 vs base)
+85231,2026-11-12,21:50:04,TPMS,INFO,survey sweep 432.920-434.920 MHz step 100 kHz med: -81 -85 -87 -87 -87 -88 -89 -88 -89 -89 -89 -89 -89 -89 -89 -89 -90 -90 -89 -90 -90 
+85231,2026-11-12,21:50:04,TPMS,INFO,survey verdict: quietest 'WiFi off' -1 dB vs base; sweep spread 9 dB (narrowband spur present)
+85232,2026-11-12,21:50:04,TPMS,INFO,RF event; no frame of ours: NRG (energy; no structure) peak -74 dBm floor -86 dur 14 ms (+3 not logged)
+87912,2026-11-12,21:50:06,HUB,INFO,WiFi got IP: 192.168.0.40 (SSID: MME_AP)
